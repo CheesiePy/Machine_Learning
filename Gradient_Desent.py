@@ -31,4 +31,9 @@ def gradient_descent(x, y, b1, b2, learning_rate, iterations):
         b2 = b2 - (2/n) * learning_rate * (np.sum(y_pred - y))
     return b1, b2
 
+b1, b2 = gradient_descent(x, y, 0, 0, 0.01, 1000)
+
+
+
+
 
